@@ -1,0 +1,306 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//scadefor//Calendario scadenze regime forfettario 1.0//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scadenze forfettario — Artigiani (riduzione 35%) — anno 20
+ 27
+X-WR-CALDESC:Imprenditori artigiani in regime forfettario iscritti alla ges
+ tione artigiani INPS\, con riduzione contributiva del 35%. Scadenze genera
+ te automaticamente per il 2027. Copia scaricata: è una fotografia statica
+ \, non si aggiorna da sola. Servizio non verificato da un professionista: 
+ solo a titolo indicativo. Dettagli e fonti su https://sequico.github.io/sc
+ adefor/
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VEVENT
+UID:2027-rate_trimestrali_inps-0216-artigiani-ridotto-35@sequico.github.io
+DTSTAMP:20260915T170622Z
+LAST-MODIFIED:20260915T170622Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:Rata contributi INPS — Artigiani (riduzione 35%)
+DESCRIPTION:CRITERI DI CALCOLO: Aliquota 24% sul minimale INPS 2026 (valori
+  provvisori\, anno 2027 non ancora pubblicato) (18.808 €\, fonte: INPS\,
+  circolare n. 14 del 9 febbraio 2026). Riduzione forfettario 35% attiva (s
+ i versa il 65%). Calcolo: 18.808 € × 24% × 65% = 2.934\,05 €/anno\, 
+ rata trimestrale 733\,51 €.\n\nCRITERI DI SCADENZA: Scadenza ordinaria: 
+ 16 febbraio 2027. Nessuna proroga rilevata alla data di generazione (15 se
+ ttembre 2026). Verifica sempre il calendario ufficiale Agenzia delle Entra
+ te in prossimità della scadenza. Riferimento normativo applicato per il 2
+ 027: D.Lgs. 9 luglio 1997\, n. 241\, art. 18\, comma 2 (mesi delle rate) e
+  comma 1 (giorno del mese). Fonte: https://www.normattiva.it/uri-res/N2Ls?
+ urn:nir:stato:decreto.legislativo:1997-07-09\;241~art18!vig= Fonte per Dat
+ e delle rate del contributo 2026 e loro attribuzione: INPS\, scheda inform
+ ativa «Aliquote e contributi artigiani» (aggiornata al 12 marzo 2026) 
+ — https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative
+ .49847.aliquote-e-contributi-artigiani.html. Le date dell'anno 2027 sono c
+ alcolate sulla regola vigente\; potrebbero essere modificate da proroghe n
+ on ancora pubblicate.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rata contributi INPS — Artigiani (riduzione 35%)
+TRIGGER:-P15D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rata contributi INPS — Artigiani (riduzione 35%)
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-opzione_riduzione_35-0228-artigiani-ridotto-35@sequico.github.io
+DTSTAMP:20260915T170622Z
+LAST-MODIFIED:20260915T170622Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Opzione riduzione contributiva 35% — Artigiani (riduzione 35%)
+DESCRIPTION:CRITERI DI CALCOLO: Adempimento senza versamento. Effetto dell'
+ opzione su questo profilo: Aliquota 24% sul minimale INPS 2026 (valori pro
+ vvisori\, anno 2027 non ancora pubblicato) (18.808 €\, fonte: INPS\, cir
+ colare n. 14 del 9 febbraio 2026). Riduzione forfettario 35% attiva (si ve
+ rsa il 65%). Calcolo: 18.808 € × 24% × 65% = 2.934\,05 €/anno\, rata
+  trimestrale 733\,51 €.\n\nCRITERI DI SCADENZA: Scadenza ordinaria: 1 ma
+ rzo 2027. Slittata al 1 marzo 2027 perché il 28 febbraio 2027 cade di dom
+ enica. Nessuna proroga rilevata alla data di generazione (15 settembre 202
+ 6). Verifica sempre il calendario ufficiale Agenzia delle Entrate in pross
+ imità della scadenza. Riferimento normativo applicato per il 2027: Legge 
+ 23 dicembre 2014\, n. 190\, art. 1\, comma 77. Fonte: https://www.normatti
+ va.it/uri-res/N2Ls?urn:nir:stato:legge:2014-12-23\;190!vig= Le date dell'a
+ nno 2027 sono calcolate sulla regola vigente\; potrebbero essere modificat
+ e da proroghe non ancora pubblicate.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Opzione riduzione contributiva 35% — Artigiani (riduzione 35%
+ )
+TRIGGER:-P30D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Opzione riduzione contributiva 35% — Artigiani (riduzione 35%
+ )
+TRIGGER:-P10D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Opzione riduzione contributiva 35% — Artigiani (riduzione 35%
+ )
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-rate_trimestrali_inps-0516-artigiani-ridotto-35@sequico.github.io
+DTSTAMP:20260915T170622Z
+LAST-MODIFIED:20260915T170622Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:Rata contributi INPS — Artigiani (riduzione 35%)
+DESCRIPTION:CRITERI DI CALCOLO: Aliquota 24% sul minimale INPS 2026 (valori
+  provvisori\, anno 2027 non ancora pubblicato) (18.808 €\, fonte: INPS\,
+  circolare n. 14 del 9 febbraio 2026). Riduzione forfettario 35% attiva (s
+ i versa il 65%). Calcolo: 18.808 € × 24% × 65% = 2.934\,05 €/anno\, 
+ rata trimestrale 733\,51 €.\n\nCRITERI DI SCADENZA: Scadenza ordinaria: 
+ 17 maggio 2027. Slittata al 17 maggio 2027 perché il 16 maggio 2027 cade 
+ di domenica. Nessuna proroga rilevata alla data di generazione (15 settemb
+ re 2026). Verifica sempre il calendario ufficiale Agenzia delle Entrate in
+  prossimità della scadenza. Riferimento normativo applicato per il 2027: 
+ D.Lgs. 9 luglio 1997\, n. 241\, art. 18\, comma 2 (mesi delle rate) e comm
+ a 1 (giorno del mese). Fonte: https://www.normattiva.it/uri-res/N2Ls?urn:n
+ ir:stato:decreto.legislativo:1997-07-09\;241~art18!vig= Fonte per Date del
+ le rate del contributo 2026 e loro attribuzione: INPS\, scheda informativa
+  «Aliquote e contributi artigiani» (aggiornata al 12 marzo 2026) — htt
+ ps://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49847.
+ aliquote-e-contributi-artigiani.html. Le date dell'anno 2027 sono calcolat
+ e sulla regola vigente\; potrebbero essere modificate da proroghe non anco
+ ra pubblicate.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rata contributi INPS — Artigiani (riduzione 35%)
+TRIGGER:-P15D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rata contributi INPS — Artigiani (riduzione 35%)
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-saldo_primo_acconto-0630-artigiani-ridotto-35@sequico.github.io
+DTSTAMP:20260915T170622Z
+LAST-MODIFIED:20260915T170622Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Saldo + 1° acconto imposta sostitutiva — Artigiani (riduzione 35
+ %)
+DESCRIPTION:CRITERI DI CALCOLO: Contributi previdenziali dovuti alla stessa
+  scadenza: Aliquota 24% sul minimale INPS 2026 (valori provvisori\, anno 2
+ 027 non ancora pubblicato) (18.808 €\, fonte: INPS\, circolare n. 14 del
+  9 febbraio 2026). Riduzione forfettario 35% attiva (si versa il 65%). Cal
+ colo: 18.808 € × 24% × 65% = 2.934\,05 €/anno\, rata trimestrale 733
+ \,51 €. Saldo dell'anno precedente e primo acconto dell'anno corrente. A
+ liquota imposta sostitutiva 15%. Esempio su reddito imponibile di 30.000 
+ € (valore illustrativo\, non un dato normativo): 30.000 € × 15% = 4.5
+ 00 € di imposta annua. Quota di riferimento 50% dell'imposta: 2.250 €.
+  Valori provvisori: i parametri dell'anno 2027 non sono ancora pubblicati\
+ , il calcolo usa quelli dell'anno 2026.\n\nCRITERI DI SCADENZA: Scadenza o
+ rdinaria: 30 giugno 2027. Nessuna proroga rilevata alla data di generazion
+ e (15 settembre 2026). Verifica sempre il calendario ufficiale Agenzia del
+ le Entrate in prossimità della scadenza. Riferimento normativo applicato 
+ per il 2027: D.P.R. 7 dicembre 2001\, n. 435\, art. 17\, commi 1 e 3. Font
+ e: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presid
+ ente.della.repubblica:2001-12-07\;435~art17!vig= Fonte per ripartizione de
+ ll'acconto in due rate: Agenzia delle Entrate\, Risoluzione n. 93/E del 12
+  novembre 2019 — chiarimenti sull'art. 58 del D.L. 124/2019 — https://
+ www.agenziaentrate.gov.it/portale/documents/20143/2139920/Risoluzione+n.+9
+ 3+del+12+novembre+2019.pdf. Fonte per Rateizzazione e differimento dei ver
+ samenti: INPS\, scheda informativa «Aliquote e contributi artigiani» (ag
+ giornata al 12 marzo 2026) — https://www.inps.it/it/it/dettaglio-approfo
+ ndimento.schede-informative.49847.aliquote-e-contributi-artigiani.html. Ra
+ teizzabile in un massimo di 6 rate. Le date dell'anno 2027 sono calcolate 
+ sulla regola vigente\; potrebbero essere modificate da proroghe non ancora
+  pubblicate.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Saldo + 1° acconto imposta sostitutiva — Artigiani (riduzion
+ e 35%)
+TRIGGER:-P15D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Saldo + 1° acconto imposta sostitutiva — Artigiani (riduzion
+ e 35%)
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-rate_trimestrali_inps-0820-artigiani-ridotto-35@sequico.github.io
+DTSTAMP:20260915T170622Z
+LAST-MODIFIED:20260915T170622Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:Rata contributi INPS — Artigiani (riduzione 35%)
+DESCRIPTION:CRITERI DI CALCOLO: Aliquota 24% sul minimale INPS 2026 (valori
+  provvisori\, anno 2027 non ancora pubblicato) (18.808 €\, fonte: INPS\,
+  circolare n. 14 del 9 febbraio 2026). Riduzione forfettario 35% attiva (s
+ i versa il 65%). Calcolo: 18.808 € × 24% × 65% = 2.934\,05 €/anno\, 
+ rata trimestrale 733\,51 €.\n\nCRITERI DI SCADENZA: Scadenza ordinaria: 
+ 20 agosto 2027. Scadenza nel periodo 1-20 agosto\, già collocata al 20 ag
+ osto per sospensione feriale dei versamenti. Nessuna proroga rilevata alla
+  data di generazione (15 settembre 2026). Verifica sempre il calendario uf
+ ficiale Agenzia delle Entrate in prossimità della scadenza. Riferimento n
+ ormativo applicato per il 2027: D.Lgs. 9 luglio 1997\, n. 241\, art. 18\, 
+ comma 2 (mesi delle rate) e comma 1 (giorno del mese). Fonte: https://www.
+ normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-07-09\;2
+ 41~art18!vig= Fonte per Date delle rate del contributo 2026 e loro attribu
+ zione: INPS\, scheda informativa «Aliquote e contributi artigiani» (aggi
+ ornata al 12 marzo 2026) — https://www.inps.it/it/it/dettaglio-approfond
+ imento.schede-informative.49847.aliquote-e-contributi-artigiani.html. Le d
+ ate dell'anno 2027 sono calcolate sulla regola vigente\; potrebbero essere
+  modificate da proroghe non ancora pubblicate.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rata contributi INPS — Artigiani (riduzione 35%)
+TRIGGER:-P15D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rata contributi INPS — Artigiani (riduzione 35%)
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-rate_trimestrali_inps-1116-artigiani-ridotto-35@sequico.github.io
+DTSTAMP:20260915T170622Z
+LAST-MODIFIED:20260915T170622Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
+SUMMARY:Rata contributi INPS — Artigiani (riduzione 35%)
+DESCRIPTION:CRITERI DI CALCOLO: Aliquota 24% sul minimale INPS 2026 (valori
+  provvisori\, anno 2027 non ancora pubblicato) (18.808 €\, fonte: INPS\,
+  circolare n. 14 del 9 febbraio 2026). Riduzione forfettario 35% attiva (s
+ i versa il 65%). Calcolo: 18.808 € × 24% × 65% = 2.934\,05 €/anno\, 
+ rata trimestrale 733\,51 €.\n\nCRITERI DI SCADENZA: Scadenza ordinaria: 
+ 16 novembre 2027. Nessuna proroga rilevata alla data di generazione (15 se
+ ttembre 2026). Verifica sempre il calendario ufficiale Agenzia delle Entra
+ te in prossimità della scadenza. Riferimento normativo applicato per il 2
+ 027: D.Lgs. 9 luglio 1997\, n. 241\, art. 18\, comma 2 (mesi delle rate) e
+  comma 1 (giorno del mese). Fonte: https://www.normattiva.it/uri-res/N2Ls?
+ urn:nir:stato:decreto.legislativo:1997-07-09\;241~art18!vig= Fonte per Dat
+ e delle rate del contributo 2026 e loro attribuzione: INPS\, scheda inform
+ ativa «Aliquote e contributi artigiani» (aggiornata al 12 marzo 2026) 
+ — https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative
+ .49847.aliquote-e-contributi-artigiani.html. Le date dell'anno 2027 sono c
+ alcolate sulla regola vigente\; potrebbero essere modificate da proroghe n
+ on ancora pubblicate.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rata contributi INPS — Artigiani (riduzione 35%)
+TRIGGER:-P15D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rata contributi INPS — Artigiani (riduzione 35%)
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-secondo_acconto-1130-artigiani-ridotto-35@sequico.github.io
+DTSTAMP:20260915T170622Z
+LAST-MODIFIED:20260915T170622Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271130
+DTEND;VALUE=DATE:20271201
+SUMMARY:2° acconto imposta sostitutiva — Artigiani (riduzione 35%)
+DESCRIPTION:CRITERI DI CALCOLO: Contributi previdenziali dovuti alla stessa
+  scadenza: Aliquota 24% sul minimale INPS 2026 (valori provvisori\, anno 2
+ 027 non ancora pubblicato) (18.808 €\, fonte: INPS\, circolare n. 14 del
+  9 febbraio 2026). Riduzione forfettario 35% attiva (si versa il 65%). Cal
+ colo: 18.808 € × 24% × 65% = 2.934\,05 €/anno\, rata trimestrale 733
+ \,51 €. Secondo acconto dell'anno corrente. Aliquota imposta sostitutiva
+  15%. Esempio su reddito imponibile di 30.000 € (valore illustrativo\, n
+ on un dato normativo): 30.000 € × 15% = 4.500 € di imposta annua. Quo
+ ta di riferimento 50% dell'imposta: 2.250 €. Valori provvisori: i parame
+ tri dell'anno 2027 non sono ancora pubblicati\, il calcolo usa quelli dell
+ 'anno 2026.\n\nCRITERI DI SCADENZA: Scadenza ordinaria: 30 novembre 2027. 
+ Nessuna proroga rilevata alla data di generazione (15 settembre 2026). Ver
+ ifica sempre il calendario ufficiale Agenzia delle Entrate in prossimità 
+ della scadenza. Riferimento normativo applicato per il 2027: D.P.R. 7 dice
+ mbre 2001\, n. 435\, art. 17\, comma 3\, lett. b). Fonte: https://www.norm
+ attiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubbli
+ ca:2001-12-07\;435~art17!vig= Fonte per ripartizione dell'acconto in due r
+ ate: Agenzia delle Entrate\, Risoluzione n. 93/E del 12 novembre 2019 — 
+ chiarimenti sull'art. 58 del D.L. 124/2019 — https://www.agenziaentrate.
+ gov.it/portale/documents/20143/2139920/Risoluzione+n.+93+del+12+novembre+2
+ 019.pdf. Le date dell'anno 2027 sono calcolate sulla regola vigente\; potr
+ ebbero essere modificate da proroghe non ancora pubblicate.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:2° acconto imposta sostitutiva — Artigiani (riduzione 35%)
+TRIGGER:-P15D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:2° acconto imposta sostitutiva — Artigiani (riduzione 35%)
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

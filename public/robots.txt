@@ -1,0 +1,9 @@
+# scadefor — calendari di scadenze per il regime forfettario
+User-agent: *
+Allow: /
+
+# I file .ics sono pensati per essere letti dai client di calendario, non indicizzati.
+# Restano raggiungibili: qui si chiede solo di non sprecarci budget di scansione.
+Disallow: /*.ics$
+
+Sitemap: https://sequico.github.io/scadefor/sitemap.xml

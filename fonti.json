@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "descrizione": "Pagine indice istituzionali consultate ad ogni verifica trimestrale. Servono a rendere la verifica indipendente da qualunque motore di ricerca: sono fonti primarie raggiungibili con una semplice richiesta HTTP, quindi funzionano anche quando la ricerca web è degradata o non configurata. Ogni URL di questo file è stato aperto e verificato manualmente al momento dell'inserimento.",
+  "verificato_il": "2026-09-15",
+  "nota_domini_autorevoli": "La verifica automatica accetta come prova solo pagine di questi domini. Senza un elenco, la pagina citata a sostegno di una modifica la sceglierebbe il modello, e un contenuto pubblicato da chiunque potrebbe diventare 'fonte verificata': è il buco che questo elenco chiude. Aggiungere un ente nuovo è una modifica esplicita a questo file, quindi passa da una revisione umana.",
+  "domini_autorevoli": [
+    "inps.it",
+    "agenziaentrate.gov.it",
+    "gazzettaufficiale.it",
+    "normattiva.it",
+    "mef.gov.it",
+    "lavoro.gov.it",
+    "governo.it",
+    "istesan.gov.it",
+    "entrate.gov.it",
+    "1.agenziaentrate.gov.it",
+    "w1.agenziaentrate.gov.it"
+  ],
+  "pagine_indice": [
+    {
+      "id": "inps-circolari-messaggi-normativa",
+      "ente": "INPS",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa.html",
+      "cosa_cercare": "Circolari e messaggi INPS dell'anno corrente su minimale contributivo, aliquote artigiani e commercianti, aliquote e massimale della Gestione separata, riduzione contributiva del 35% per il regime forfettario."
+    },
+    {
+      "id": "inps-notizie",
+      "ente": "INPS",
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie.html",
+      "cosa_cercare": "Comunicati INPS su rivalutazioni annuali, nuove riduzioni contributive e riaperture di termini."
+    },
+    {
+      "id": "agenzia-entrate-normativa-prassi",
+      "ente": "Agenzia delle Entrate",
+      "url": "https://www.agenziaentrate.gov.it/portale/normativa-e-prassi",
+      "cosa_cercare": "Provvedimenti, circolari e risoluzioni dell'Agenzia delle Entrate su regime forfettario, imposta sostitutiva, acconti e termini di versamento."
+    },
+    {
+      "id": "normattiva-legge-190-2014",
+      "ente": "Normattiva",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2014-12-23;190!vig=",
+      "cosa_cercare": "Testo vigente della legge 23 dicembre 2014, n. 190: commi 54 e seguenti (regime forfettario, soglia di 85.000 euro), commi 64 e 65 (aliquote dell'imposta sostitutiva), commi 76-84 (riduzione contributiva del 35%)."
+    },
+    {
+      "id": "mef",
+      "ente": "Ministero dell'Economia e delle Finanze",
+      "url": "https://www.mef.gov.it/",
+      "cosa_cercare": "Legge di Bilancio e documenti programmatici che modificano soglie, aliquote o termini del regime forfettario."
+    },
+    {
+      "id": "gazzetta-ufficiale",
+      "ente": "Gazzetta Ufficiale",
+      "url": "https://www.gazzettaufficiale.it/",
+      "cosa_cercare": "Pubblicazione di decreti, DPCM e comunicati che dispongono proroghe di termini fiscali o contributivi."
+    }
+  ],
+  "query_predefinite": [
+    "site:inps.it circolare contributi artigiani commercianti minimale aliquote",
+    "site:inps.it gestione separata aliquota massimale",
+    "\"riduzione del 35\" forfettario artigiani commercianti contributi",
+    "site:agenziaentrate.gov.it forfettario acconto imposta sostitutiva scadenza",
+    "proroga scadenze fiscali contributive decreti",
+    "legge di bilancio aliquota imposta sostitutiva forfettario"
+  ]
+}

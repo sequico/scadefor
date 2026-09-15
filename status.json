@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "ultimo_tentativo": "2026-09-15T17:02:51.681Z",
+  "ultimo_tentativo_esito": "riuscito",
+  "ultimo_aggiornamento_riuscito": "2026-09-15T17:02:51.681Z",
+  "dettaglio_fallimento": null,
+  "regole_modificate_ultima_run": [],
+  "parametri_modificati_ultima_run": [],
+  "proroghe_applicate_ultima_run": [],
+  "regole_proposte_ma_scartate_per_limite_sicurezza": [],
+  "proposte_scartate_per_verifica_fallita": [],
+  "modello_utilizzato": "deepseek-flash",
+  "verifica_eseguita": true
+}

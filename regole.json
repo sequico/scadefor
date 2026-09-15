@@ -1,0 +1,384 @@
+{
+  "versione_normativa_verificata": "2026-09",
+  "metadati": {
+    "dominio": "sequico.github.io/scadefor",
+    "dominio_calendari": "sequico.github.io",
+    "cname": null,
+    "prod_id": "-//scadefor//Calendario scadenze regime forfettario 1.0//IT",
+    "fuso_orario": "Europe/Rome",
+    "url_repository": "https://github.com/sequico/scadefor"
+  },
+  "profili": [
+    {
+      "id": "gestione-separata",
+      "nome": "Gestione Separata",
+      "nome_calendario": "Scadenze forfettario — Gestione Separata",
+      "descrizione": "Professionisti e lavoratori autonomi senza altra copertura previdenziale obbligatoria, iscritti alla Gestione separata INPS.",
+      "file": "gestione-separata.ics",
+      "applica_riduzione_forfettario": false,
+      "calcolo_contributi": {
+        "tipo": "aliquota_su_reddito",
+        "aliquota_param": "aliquota_gestione_separata",
+        "reddito_esempio_param": "reddito_esempio"
+      },
+      "descrizione_pagina": "Sei professionista o lavoratore autonomo senza cassa previdenziale: i contributi si calcolano sul reddito che fatturi davvero, senza minimale. Qui trovi le due scadenze che ti riguardano, con il conto già fatto.",
+      "punti_chiave": [
+        "due scadenze all'anno",
+        "nessun minimale",
+        "aliquota sul reddito"
+      ]
+    },
+    {
+      "id": "artigiani-ridotto-35",
+      "nome": "Artigiani (riduzione 35%)",
+      "nome_calendario": "Scadenze forfettario — Artigiani (riduzione 35%)",
+      "descrizione": "Imprenditori artigiani in regime forfettario iscritti alla gestione artigiani INPS, con riduzione contributiva del 35%.",
+      "file": "artigiani-ridotto-35.ics",
+      "applica_riduzione_forfettario": true,
+      "calcolo_contributi": {
+        "tipo": "contributo_fisso_rateizzato",
+        "base_param": "minimale_inps_artigiani_commercianti",
+        "aliquota_param": "aliquota_artigiani",
+        "numero_rate": 4
+      },
+      "descrizione_pagina": "Sei artigiano e hai chiesto la riduzione del 35%: gli importi sono già calcolati al netto, senza che tu debba rifare il conto ogni trimestre.",
+      "punti_chiave": [
+        "quattro rate, più saldo e acconti",
+        "riduzione 35% già applicata",
+        "promemoria per il 28 febbraio"
+      ]
+    },
+    {
+      "id": "commercianti-ridotto-35",
+      "nome": "Commercianti (riduzione 35%)",
+      "nome_calendario": "Scadenze forfettario — Commercianti (riduzione 35%)",
+      "descrizione": "Imprenditori commerciali in regime forfettario iscritti alla gestione commercianti INPS, con riduzione contributiva del 35%.",
+      "file": "commercianti-ridotto-35.ics",
+      "applica_riduzione_forfettario": true,
+      "calcolo_contributi": {
+        "tipo": "contributo_fisso_rateizzato",
+        "base_param": "minimale_inps_artigiani_commercianti",
+        "aliquota_param": "aliquota_commercianti",
+        "numero_rate": 4
+      },
+      "descrizione_pagina": "Sei commerciante e hai chiesto la riduzione del 35%: aliquota e importi sono già ridotti, rate trimestrali comprese.",
+      "punti_chiave": [
+        "quattro rate, più saldo e acconti",
+        "riduzione 35% già applicata",
+        "aliquota commercianti ridotta"
+      ]
+    }
+  ],
+  "regole": [
+    {
+      "id": "festivi_nazionali",
+      "tipo": "calendario_festivi",
+      "descrizione": "Festività nazionali italiane usate per lo slittamento delle scadenze",
+      "festivi_fissi": [
+        {
+          "giorno": 1,
+          "mese": 1,
+          "denominazione": "Capodanno"
+        },
+        {
+          "giorno": 6,
+          "mese": 1,
+          "denominazione": "Epifania del Signore"
+        },
+        {
+          "giorno": 25,
+          "mese": 4,
+          "denominazione": "Festa della Liberazione"
+        },
+        {
+          "giorno": 1,
+          "mese": 5,
+          "denominazione": "Festa dei Lavoratori"
+        },
+        {
+          "giorno": 2,
+          "mese": 6,
+          "denominazione": "Festa della Repubblica"
+        },
+        {
+          "giorno": 15,
+          "mese": 8,
+          "denominazione": "Assunzione della Beata Vergine Maria"
+        },
+        {
+          "giorno": 1,
+          "mese": 11,
+          "denominazione": "Tutti i Santi"
+        },
+        {
+          "giorno": 8,
+          "mese": 12,
+          "denominazione": "Immacolata Concezione"
+        },
+        {
+          "giorno": 25,
+          "mese": 12,
+          "denominazione": "Natale del Signore"
+        },
+        {
+          "giorno": 26,
+          "mese": 12,
+          "denominazione": "Santo Stefano"
+        }
+      ],
+      "festivi_mobili": [
+        {
+          "tipo": "lunedi_di_pasqua",
+          "denominazione": "Lunedì dell'Angelo"
+        }
+      ],
+      "fonte_normativa": "D.P.R. 28 dicembre 1985, n. 792, art. 1 (festività religiose)",
+      "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1985-12-28;792~art1!vig=",
+      "estratto_verificato": "Sono festività religiose, ai sensi e per gli effetti dell'art. 6 dell'accordo firmato a Roma il 18 febbraio 1984",
+      "stato_verifica": "verificato",
+      "nota": "La lista operativa è composta da tre norme, non da una: il D.P.R. 792/1985 per le festività religiose (domeniche, 1 gennaio, 6 gennaio, 15 agosto, 1 novembre, 8 dicembre, 25 dicembre), la legge 260/1949 per le civili non soppresse (lunedì dell'Angelo, 25 aprile, 1 maggio, 26 dicembre) e la legge 336/2000 per il 2 giugno. La legge 54/1977 ha soppresso Epifania, San Giuseppe, Ascensione, Corpus Domini, Santi Pietro e Paolo, 2 giugno e 4 novembre; l'Epifania e il 2 giugno sono stati poi ripristinati. Ogni voce è verificata automaticamente sulla sua fonte.",
+      "fonti_aggiuntive": [
+        {
+          "aspetto": "Festività civili: 25 aprile, 1 maggio, lunedì dell'Angelo, 26 dicembre",
+          "fonte_normativa": "Legge 27 maggio 1949, n. 260, art. 2",
+          "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1949-05-27;260~art2!vig=",
+          "estratto_verificato": "il 25 aprile: anniversario della liberazione; il giorno di lunedi dopo Pasqua",
+          "stato_verifica": "verificato",
+          "nota": "Questo articolo elenca anche giorni che oggi non sono più festivi. La lista operativa usata dal calendario è il risultato incrociato con la legge 54/1977 e il D.P.R. 792/1985, non la lettura di un solo articolo."
+        },
+        {
+          "aspetto": "Festività soppresse: San Giuseppe, Ascensione, Corpus Domini, Santi Pietro e Paolo, 4 novembre",
+          "fonte_normativa": "Legge 5 marzo 1977, n. 54, art. 1",
+          "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1977-03-05;54~art1!vig=",
+          "estratto_verificato": "I seguenti giorni cessano di essere considerati festivi agli effetti civili: Epifania; S. Giuseppe; Ascensione; Corpus Domini; SS. Apostoli Pietro e Paolo.",
+          "stato_verifica": "verificato",
+          "nota": "L'Epifania, soppressa nel 1977, è stata poi ripristinata dal D.P.R. 792/1985. San Giuseppe, Ascensione, Corpus Domini e i Santi Pietro e Paolo (fuori dal comune di Roma) NON sono festivi oggi, anche se restano scritti nell'articolo 2 della legge 260/1949: fidarsi di quell'articolo da solo sarebbe un errore."
+        },
+        {
+          "aspetto": "Festa della Repubblica, 2 giugno",
+          "fonte_normativa": "Legge 20 novembre 2000, n. 336",
+          "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2000-11-20;336~art1!vig=",
+          "estratto_verificato": "La festività nazionale del 2 giugno",
+          "stato_verifica": "verificato",
+          "nota": "Il 2 giugno era stato spostato alla prima domenica di giugno dalla legge 54/1977; questa legge lo ha ripristinato come giorno festivo."
+        }
+      ]
+    },
+    {
+      "id": "sospensione_feriale",
+      "tipo": "regola_slittamento",
+      "descrizione": "Sospensione feriale dei versamenti",
+      "attivo": true,
+      "categoria": "adempimento",
+      "periodo_inizio": {
+        "giorno": 1,
+        "mese": 8
+      },
+      "periodo_fine": {
+        "giorno": 20,
+        "mese": 8
+      },
+      "slitta_a": {
+        "giorno": 20,
+        "mese": 8
+      },
+      "calcolo": {
+        "tipo": "nessuno"
+      },
+      "fonte_normativa": "D.L. 4 luglio 2006, n. 223, art. 37, comma 11-bis, convertito con modificazioni dalla legge 4 agosto 2006, n. 248",
+      "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2006-07-04;223~art37!vig=",
+      "estratto_verificato": "Gli adempimenti fiscali e il versamento delle somme di cui agli articoli 17 e 20, comma 4, del decreto legislativo 9 luglio 1997, n. 241, che hanno scadenza dal 1º al 20 agosto di ogni anno, possono essere effettuati entro il giorno 20 dello stesso mese, senza alcuna maggiorazione.",
+      "stato_verifica": "verificato",
+      "nota": "La norma è stata individuata e verificata sul testo vigente. Attenzione a non citare la legge 7 ottobre 1969, n. 742: quella riguarda la sospensione dei termini processuali dal 1º al 31 agosto davanti alle giurisdizioni e non i termini di versamento, ed è l'errore di citazione più diffuso su questo punto."
+    },
+    {
+      "id": "slittamento_giorno_non_lavorativo",
+      "tipo": "slittamento_lavorativo",
+      "descrizione": "Slittamento al primo giorno lavorativo successivo",
+      "attivo": true,
+      "categoria": "adempimento",
+      "usa_festivi": "festivi_nazionali",
+      "calcolo": {
+        "tipo": "nessuno"
+      },
+      "fonte_normativa": "D.Lgs. 9 luglio 1997, n. 241, art. 18, comma 1",
+      "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-07-09;241~art18!vig=",
+      "estratto_verificato": "Se il termine scade di sabato o di giorno festivo il versamento è tempestivo se effettuato il primo giorno lavorativo successivo.",
+      "stato_verifica": "verificato",
+      "nota": "La norma è stata individuata e verificata sul testo vigente. In precedenza questo dato era marcato come non verificato: le ricerche su D.Lgs. 241/1997 artt. 2, 6, 17 e 20 e su D.P.R. 435/2001 art. 17 non davano esito, perché la clausola sta nell'art. 18, comma 1."
+    },
+    {
+      "id": "saldo_primo_acconto",
+      "descrizione": "Saldo dell'imposta sostitutiva dell'anno precedente e primo acconto dell'anno corrente",
+      "titolo_breve": "Saldo + 1° acconto imposta sostitutiva",
+      "tipo": "data_fissa_annuale",
+      "attivo": true,
+      "includi_calcolo_contributi": true,
+      "categoria": "imposta_sostitutiva",
+      "giorno": 30,
+      "mese": 6,
+      "split_acconto_percentuale": 50,
+      "rateizzabile": true,
+      "max_rate": 6,
+      "calcolo": {
+        "tipo": "imposta_sostitutiva",
+        "aliquota_param": "aliquota_sostitutiva_ordinaria",
+        "reddito_esempio_param": "reddito_esempio",
+        "quota_acconto_percentuale": 50,
+        "descrizione_quota": "Saldo dell'anno precedente e primo acconto dell'anno corrente"
+      },
+      "fonte_normativa": "D.P.R. 7 dicembre 2001, n. 435, art. 17, commi 1 e 3",
+      "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-12-07;435~art17!vig=",
+      "estratto_verificato": "Il quaranta per cento dell'acconto dovuto è versato alla scadenza della prima rata e il residuo importo alla scadenza della seconda.",
+      "stato_verifica": "verificato",
+      "nota": "La data del 30 giugno viene dall'art. 17, comma 1, del D.P.R. 435/2001 ed è verificata automaticamente. La ripartizione dell'acconto è invece in DUE RATE DI PARI IMPORTO e non 40/60: la regola generale dell'art. 17, comma 3, è stata rimodulata per il regime forfettario dalla risoluzione dell'Agenzia delle Entrate n. 93/E del 12 novembre 2019, che estende ai forfettari il 50 per cento previsto dall'art. 58 del D.L. 124/2019 e chiarisce che riguarda anche l'imposta sostitutiva. Molte fonti di pratica riportano ancora 40/60 per il regime forfettario: è un errore diffuso, e seguirlo porta a versare meno del dovuto a giugno. La fonte è un PDF, quindi verificata a mano e non ricontrollabile automaticamente. L'art. 17, comma 2, consente inoltre di differire il versamento di 30 giorni maggiorando dello 0,40% a titolo di interesse corrispettivo; la rateizzazione trova la sua base nell'art. 20 del D.Lgs. 241/1997 (rate mensili di uguale importo, ciascuna entro il giorno 16 del mese, con completamento entro il 16 dicembre).",
+      "fonti_aggiuntive": [
+        {
+          "aspetto": "ripartizione dell'acconto in due rate",
+          "fonte_normativa": "Agenzia delle Entrate, Risoluzione n. 93/E del 12 novembre 2019 — chiarimenti sull'art. 58 del D.L. 124/2019",
+          "fonte_url": "https://www.agenziaentrate.gov.it/portale/documents/20143/2139920/Risoluzione+n.+93+del+12+novembre+2019.pdf",
+          "estratto_verificato": "rimodulandoli in due rate di pari importo, vale a dire entrambe del 50 per cento, anziché 40 e 60 per cento",
+          "estratto_secondario": "applicano il regime forfetario agevolato, previsto dall'articolo 1, commi da 54 a 89, della legge 23 dicembre 2014, n. 190",
+          "stato_verifica": "verificato_manualmente",
+          "nota": "La fonte è un PDF ufficiale dell'Agenzia delle Entrate, letto e confermato a mano: la pipeline dichiara i PDF non testuali invece di fingere di saperli leggere, quindi questo dato non è ricontrollabile automaticamente ad ogni run. È la ragione del suo stato particolare. La risoluzione estende espressamente la rimodulazione 50/50 ai contribuenti che applicano il regime forfetario agevolato, e chiarisce che riguarda anche l'imposta sostitutiva. Attenzione all'ambito: la risoluzione fa discendere il 50/50 da due condizioni che il contribuente deve soddisfare contestualmente — esercitare un'attività economica per la quale siano stati approvati gli ISA (poco importa se li applichi o meno), e dichiarare ricavi o compensi entro il limite stabilito per il proprio ISA. Per i forfettari queste condizioni ricorrono praticamente sempre, perché il limite del regime forfettario è molto più basso di quello degli ISA; chi però esercitasse un'attività senza ISA approvati resterebbe alla ripartizione ordinaria 40/60 dell'art. 17, comma 3, del D.P.R. 435/2001."
+        },
+        {
+          "aspetto": "Rateizzazione e differimento dei versamenti",
+          "fonte_normativa": "INPS, scheda informativa «Aliquote e contributi artigiani» (aggiornata al 12 marzo 2026)",
+          "fonte_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49847.aliquote-e-contributi-artigiani.html",
+          "estratto_verificato": "rateizzati in massimo sei rate rispetto al termine ordinario previsto",
+          "stato_verifica": "verificato",
+          "nota": "La pagina INPS conferma anche il differimento: «possono essere versati con un differimento sino a 30 giorni». La stessa pagina parla dei contributi eccedenti il minimale come di «due acconti di pari importo», coerente con il 50/50 dell'imposta sostitutiva."
+        }
+      ]
+    },
+    {
+      "id": "secondo_acconto",
+      "descrizione": "Secondo acconto dell'imposta sostitutiva dell'anno corrente",
+      "titolo_breve": "2° acconto imposta sostitutiva",
+      "tipo": "data_fissa_annuale",
+      "attivo": true,
+      "includi_calcolo_contributi": true,
+      "categoria": "imposta_sostitutiva",
+      "giorno": 30,
+      "mese": 11,
+      "split_acconto_percentuale": 50,
+      "rateizzabile": false,
+      "calcolo": {
+        "tipo": "imposta_sostitutiva",
+        "aliquota_param": "aliquota_sostitutiva_ordinaria",
+        "reddito_esempio_param": "reddito_esempio",
+        "quota_acconto_percentuale": 50,
+        "descrizione_quota": "Secondo acconto dell'anno corrente"
+      },
+      "fonte_normativa": "D.P.R. 7 dicembre 2001, n. 435, art. 17, comma 3, lett. b)",
+      "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-12-07;435~art17!vig=",
+      "estratto_verificato": "per la seconda rata, nel mese di novembre",
+      "stato_verifica": "verificato",
+      "fonti_aggiuntive": [
+        {
+          "aspetto": "ripartizione dell'acconto in due rate",
+          "fonte_normativa": "Agenzia delle Entrate, Risoluzione n. 93/E del 12 novembre 2019 — chiarimenti sull'art. 58 del D.L. 124/2019",
+          "fonte_url": "https://www.agenziaentrate.gov.it/portale/documents/20143/2139920/Risoluzione+n.+93+del+12+novembre+2019.pdf",
+          "estratto_verificato": "rimodulandoli in due rate di pari importo, vale a dire entrambe del 50 per cento, anziché 40 e 60 per cento",
+          "estratto_secondario": "applicano il regime forfetario agevolato, previsto dall'articolo 1, commi da 54 a 89, della legge 23 dicembre 2014, n. 190",
+          "stato_verifica": "verificato_manualmente",
+          "nota": "La fonte è un PDF ufficiale dell'Agenzia delle Entrate, letto e confermato a mano: la pipeline dichiara i PDF non testuali invece di fingere di saperli leggere, quindi questo dato non è ricontrollabile automaticamente ad ogni run. È la ragione del suo stato particolare. La risoluzione estende espressamente la rimodulazione 50/50 ai contribuenti che applicano il regime forfetario agevolato, e chiarisce che riguarda anche l'imposta sostitutiva. Attenzione all'ambito: la risoluzione fa discendere il 50/50 da due condizioni che il contribuente deve soddisfare contestualmente — esercitare un'attività economica per la quale siano stati approvati gli ISA (poco importa se li applichi o meno), e dichiarare ricavi o compensi entro il limite stabilito per il proprio ISA. Per i forfettari queste condizioni ricorrono praticamente sempre, perché il limite del regime forfettario è molto più basso di quello degli ISA; chi però esercitasse un'attività senza ISA approvati resterebbe alla ripartizione ordinaria 40/60 dell'art. 17, comma 3, del D.P.R. 435/2001."
+        }
+      ],
+      "nota": "Vale la stessa ripartizione del saldo: per il regime forfettario l'acconto è in due rate di pari importo (risoluzione Agenzia delle Entrate n. 93/E del 12 novembre 2019), quindi anche la seconda rata è al 50 per cento. La scadenza nel mese di novembre viene dall'art. 17, comma 3, lett. b), del D.P.R. 435/2001 ed è verificata automaticamente."
+    },
+    {
+      "id": "rate_trimestrali_inps",
+      "descrizione": "Rata trimestrale dei contributi INPS artigiani e commercianti",
+      "titolo_breve": "Rata contributi INPS",
+      "tipo": "date_ricorrenti_trimestrali",
+      "attivo": true,
+      "categoria": "contributi_inps",
+      "date": [
+        {
+          "giorno": 16,
+          "mese": 2
+        },
+        {
+          "giorno": 16,
+          "mese": 5
+        },
+        {
+          "giorno": 20,
+          "mese": 8
+        },
+        {
+          "giorno": 16,
+          "mese": 11
+        }
+      ],
+      "applicabile_a": [
+        "artigiani-ridotto-35",
+        "commercianti-ridotto-35"
+      ],
+      "calcolo": {
+        "tipo": "dal_profilo"
+      },
+      "fonte_normativa": "D.Lgs. 9 luglio 1997, n. 241, art. 18, comma 2 (mesi delle rate) e comma 1 (giorno del mese)",
+      "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-07-09;241~art18!vig=",
+      "estratto_verificato": "sono effettuati nei mesi di febbraio, maggio, agosto e novembre",
+      "stato_verifica": "verificato",
+      "nota": "I mesi delle quattro rate sono verificati sull'art. 18, comma 2. Il giorno 16 viene dal comma 1 dello stesso articolo (le somme si versano entro il giorno sedici del mese di scadenza). La rata di agosto cade al 20 non per la regola sulle rate ma per la sospensione feriale dei versamenti, che è a sua volta verificata.",
+      "fonti_aggiuntive": [
+        {
+          "aspetto": "Date delle rate del contributo 2026 e loro attribuzione",
+          "fonte_normativa": "INPS, scheda informativa «Aliquote e contributi artigiani» (aggiornata al 12 marzo 2026)",
+          "fonte_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49847.aliquote-e-contributi-artigiani.html",
+          "estratto_verificato": "Il pagamento del contributo minimo obbligatorio deve essere effettuato in quattro rate, secondo le seguenti scadenze: 18 maggio 2026; 20 agosto 2026; 17 novembre 2026; 16 febbraio 2027.",
+          "stato_verifica": "verificato",
+          "nota": "Due precisazioni. Primo: la pagina INPS raggruppa le rate per ANNO DI CONTRIBUZIONE (maggio, agosto, novembre dell'anno e febbraio dell'anno dopo), mentre il calendario le elenca per anno di PAGAMENTO; l'insieme delle date è lo stesso. Secondo: per la rata di novembre la pagina INPS indica il 17 novembre 2026, mentre la regola generale (giorno 16, spostato se non lavorativo) dà il 16 novembre 2026, che è un lunedì. Il 16 novembre 2025 era invece domenica: il 17 è la data corretta per il 2025 e sembra un residuo rimasto nella pagina. Il calendario pubblica il 16 novembre, cioè la data anteriore: pagare prima è sempre tempestivo, pagare dopo no."
+        }
+      ]
+    },
+    {
+      "id": "opzione_riduzione_35",
+      "descrizione": "Termine per presentare all'INPS l'opzione per la riduzione contributiva del 35%",
+      "titolo_breve": "Opzione riduzione contributiva 35%",
+      "tipo": "data_fissa_annuale",
+      "attivo": true,
+      "categoria": "adempimento",
+      "giorno": 28,
+      "mese": 2,
+      "applicabile_a": [
+        "artigiani-ridotto-35",
+        "commercianti-ridotto-35"
+      ],
+      "calcolo": {
+        "tipo": "adempimento"
+      },
+      "promemoria_giorni": [
+        30,
+        10,
+        1
+      ],
+      "fonte_normativa": "Legge 23 dicembre 2014, n. 190, art. 1, comma 77",
+      "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2014-12-23;190!vig=",
+      "estratto_verificato": "Su tale reddito si applica la contribuzione dovuta ai fini previdenziali, ridotta del 35 per cento.",
+      "stato_verifica": "verificato",
+      "nota": "La norma che istituisce la riduzione del 35% è verificata. Il termine del 28 febbraio per presentare l'opzione proviene invece da fonti non ufficiali e non è stato verificato su una fonte primaria leggibile: da confermare manualmente. La riduzione non è automatica e va richiesta."
+    },
+    {
+      "id": "versamento_mensile_iva",
+      "descrizione": "Versamento IVA mensile — non applicabile al regime forfettario",
+      "tipo": "data_ricorrente_mensile",
+      "attivo": false,
+      "giorno": 16,
+      "categoria": "adempimento",
+      "calcolo": {
+        "tipo": "nessuno"
+      },
+      "fonte_normativa": "Legge 23 dicembre 2014, n. 190, art. 1, comma 58",
+      "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2014-12-23;190!vig=",
+      "estratto_verificato": "Ai fini dell'imposta sul valore aggiunto, i contribuenti di cui al comma 54",
+      "stato_verifica": "verificato",
+      "nota": "Regola mantenuta per completezza dell'impianto dichiarativo ma DISATTIVATA: nel regime forfettario non si applica l'IVA sulle operazioni nazionali, quindi non produce alcun evento in calendario. È disattivata per scelta esplicita (attivo: false), non per errore."
+    }
+  ],
+  "proroghe": []
+}

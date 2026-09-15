@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+*.local.json
+.env
+
+# Stato locale dell'agente: non fa parte del progetto e non va pubblicato.
+.codewhale/

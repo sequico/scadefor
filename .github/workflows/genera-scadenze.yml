@@ -1,0 +1,100 @@
+name: Genera scadenze
+
+# Cron trimestrale: 1 gennaio, 1 aprile, 1 luglio, 1 ottobre.
+# L'ora è scelta fuori dai minuti di punta; GitHub Actions può ritardare
+# le esecuzioni programmate sotto carico.
+on:
+  schedule:
+    - cron: "17 6 1 1,4,7,10 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Una sola run alla volta: due run concorrenti si sovrascriverebbero i file.
+concurrency:
+  group: genera-scadenze
+  cancel-in-progress: false
+
+jobs:
+  genera:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # La cronologia serve alla sezione "Proroghe rilevate".
+          fetch-depth: 0
+
+      - name: Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      # Il progetto non ha dipendenze: non c'è nulla da installare.
+      - name: Test
+        run: npm test
+
+      - name: Verifica degli estratti pubblicati
+        run: npm run verifica:estratti
+
+      - name: Verifica delle fonti e generazione dei calendari
+        env:
+          # Uniche credenziali richieste. Il motore di ricerca predefinito
+          # (Google News) non usa chiavi.
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          # Facoltativa: serve solo se si sceglie un provider di ricerca a chiave.
+          SEARCH_API_KEY: ${{ secrets.SEARCH_API_KEY }}
+          SEARCH_PROVIDER: ${{ vars.SEARCH_PROVIDER }}
+        run: node genera.ts
+
+      # Controllo geometrico della pagina rigenerata: certi difetti di layout non
+      # si vedono nel markup, e questo li intercetta prima del commit. Chrome è
+      # presente sui runner GitHub; se mancasse, lo script lo dichiara e passa.
+      - name: Verifica geometrica della pagina
+        run: npm run verifica:geometria
+
+      - name: Commit e push se qualcosa è cambiato
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "Nessuna modifica: nessun commit."
+            exit 0
+          fi
+
+          git config user.name "scadefor-bot"
+          git config user.email "scadefor-bot@users.noreply.github.com"
+
+          node script/messaggio-commit.ts > /tmp/messaggio.txt
+          cat /tmp/messaggio.txt
+
+          git add -A
+          git commit --file=/tmp/messaggio.txt
+          git push
+
+      # L'artefatto si prepara qui, dal contenuto appena generato: così viene
+      # pubblicato esattamente quello che questa run ha prodotto, anche se il
+      # push fosse rifiutato dalle regole di protezione del branch.
+      - name: Prepara l'artefatto per GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  pubblica:
+    needs: genera
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.pubblicazione.outputs.page_url }}
+
+    steps:
+      - name: Pubblica su GitHub Pages
+        id: pubblicazione
+        uses: actions/deploy-pages@v4

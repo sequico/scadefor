@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "nota": "Valori soggetti a rivalutazione annuale. Ogni valore dichiara il proprio stato di verifica: 'verificato' significa che l'estratto citato è stato confrontato meccanicamente con la pagina indicata; 'fonte_primaria_non_leggibile' significa che la fonte ufficiale esiste ma non è leggibile con una richiesta HTTP semplice (pagine rese via JavaScript) e il valore proviene da riproduzioni non ufficiali. I valori non verificati sono elencati in una sezione dedicata della pagina pubblica.",
+  "reddito_esempio_nota": "Il campo comune 'reddito_esempio' è un valore puramente illustrativo usato per mostrare un esempio numerico nei calendari. Non è un dato normativo.",
+  "comuni": {
+    "riduzione_forfettario": 0.35,
+    "soglia_regime_forfettario": 85000,
+    "aliquota_sostitutiva_ordinaria": 0.15,
+    "aliquota_sostitutiva_startup": 0.05,
+    "reddito_esempio": 30000
+  },
+  "fonti_comuni": [
+    {
+      "campo": "riduzione_forfettario",
+      "fonte_normativa": "Legge 23 dicembre 2014, n. 190, art. 1, comma 77",
+      "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2014-12-23;190!vig=",
+      "estratto_verificato": "Su tale reddito si applica la contribuzione dovuta ai fini previdenziali, ridotta del 35 per cento.",
+      "stato_verifica": "verificato"
+    },
+    {
+      "campo": "soglia_regime_forfettario",
+      "fonte_normativa": "Legge 23 dicembre 2014, n. 190, art. 1, comma 54, lett. a) — scheda Agenzia delle Entrate",
+      "fonte_url": "https://www.agenziaentrate.gov.it/portale/regime-forfetario-le-regole-2020-/infogen-regime-forfetario-le-regole-2020-",
+      "estratto_verificato": "conseguito ricavi o percepito compensi, ragguagliati ad anno, non superiori a 85.000 euro",
+      "stato_verifica": "verificato"
+    },
+    {
+      "campo": "aliquota_sostitutiva_ordinaria",
+      "fonte_normativa": "Legge 23 dicembre 2014, n. 190, art. 1, comma 64 — scheda Agenzia delle Entrate",
+      "fonte_url": "https://www.agenziaentrate.gov.it/portale/regime-forfetario-le-regole-2020-/infogen-regime-forfetario-le-regole-2020-",
+      "estratto_verificato": "Al reddito imponibile si applica un'unica imposta, nella misura del 15%, sostitutiva di quelle ordinariamente previste",
+      "stato_verifica": "verificato"
+    },
+    {
+      "campo": "aliquota_sostitutiva_startup",
+      "fonte_normativa": "Legge 23 dicembre 2014, n. 190, art. 1, comma 65 — scheda Agenzia delle Entrate",
+      "fonte_url": "https://www.agenziaentrate.gov.it/portale/regime-forfetario-le-regole-2020-/infogen-regime-forfetario-le-regole-2020-",
+      "estratto_verificato": "L'imposta sostitutiva è ridotta al 5% per i primi cinque anni di attività",
+      "stato_verifica": "verificato"
+    }
+  ],
+  "anni": {
+    "2026": {
+      "anno": 2026,
+      "valori_provvisori": false,
+      "minimale_inps_artigiani_commercianti": 18808,
+      "aliquota_artigiani": 0.24,
+      "aliquota_commercianti": 0.2448,
+      "aliquota_gestione_separata": 0.2607,
+      "aliquota_gestione_separata_altra_copertura": 0.24,
+      "fonti": [
+        {
+          "campo": "minimale_inps_artigiani_commercianti",
+          "fonte_normativa": "INPS, circolare n. 14 del 9 febbraio 2026",
+          "fonte_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.02.circolare-numero-14-del-09-02-2026_15162.html",
+          "estratto_verificato": "",
+          "stato_verifica": "fonte_primaria_non_leggibile",
+          "nota": "La pagina ufficiale della circolare esiste ma il suo corpo è reso via JavaScript: in una richiesta HTTP semplice non compare alcun importo. Il valore è stato riscontrato su riproduzioni non ufficiali della circolare e DEVE essere confermato manualmente."
+        },
+        {
+          "campo": "aliquota_artigiani",
+          "fonte_normativa": "INPS, circolare n. 14 del 9 febbraio 2026 (comunicato INPS del 9 febbraio 2026)",
+          "fonte_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.gestioni-artigiani-e-commercianti-i-contributi-per-il-2026.html",
+          "estratto_verificato": "risultano il 24% per gli artigiani e il 24,48% per i commercianti",
+          "stato_verifica": "verificato"
+        },
+        {
+          "campo": "aliquota_commercianti",
+          "fonte_normativa": "INPS, circolare n. 14 del 9 febbraio 2026 (comunicato INPS del 9 febbraio 2026)",
+          "fonte_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.gestioni-artigiani-e-commercianti-i-contributi-per-il-2026.html",
+          "estratto_verificato": "risultano il 24% per gli artigiani e il 24,48% per i commercianti",
+          "stato_verifica": "verificato",
+          "nota": "Il 24,48% è la somma dell'aliquota IVS del 24% e dell'aliquota aggiuntiva dello 0,48% per l'indennizzo in caso di cessazione dell'attività commerciale."
+        },
+        {
+          "campo": "aliquota_gestione_separata",
+          "fonte_normativa": "INPS, circolare n. 8 del 3 febbraio 2026",
+          "fonte_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.02.circolare-numero-8-del-03-02-2026_15153.html",
+          "estratto_verificato": "",
+          "stato_verifica": "fonte_primaria_non_leggibile",
+          "nota": "Come per la circolare n. 14, il corpo della pagina ufficiale è reso via JavaScript e non espone le aliquote a una richiesta HTTP semplice. Valore da confermare manualmente."
+        },
+        {
+          "campo": "aliquota_gestione_separata_altra_copertura",
+          "fonte_normativa": "INPS, circolare n. 8 del 3 febbraio 2026",
+          "fonte_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.02.circolare-numero-8-del-03-02-2026_15153.html",
+          "estratto_verificato": "",
+          "stato_verifica": "fonte_primaria_non_leggibile",
+          "nota": "Aliquota per i soggetti già coperti da altra forma previdenziale obbligatoria. Valore da confermare manualmente."
+        }
+      ]
+    }
+  }
+}

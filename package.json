@@ -1,0 +1,20 @@
+{
+  "name": "scadefor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Calendari ICS sottoscrivibili con le scadenze fiscali e contributive italiane del regime forfettario.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "genera": "node genera.ts",
+    "genera:offline": "node genera.ts --senza-verifica",
+    "verifica": "node verificaFonti.ts",
+    "verifica:estratti": "node script/verifica-estratti.ts",
+    "test": "node --test test/*.test.ts",
+    "verifica:geometria": "node script/verifica-geometria.ts",
+    "genera:og-image": "node script/genera-og-image.ts"
+  }
+}
