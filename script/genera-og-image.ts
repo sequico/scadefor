@@ -76,7 +76,7 @@ const html = `<!DOCTYPE html>
   <div class="riga">
     <p class="scadenze">Le scadenze fiscali e contributive del regime forfettario, in un calendario
     da sottoscrivere. Aggiornato dall'intelligenza artificiale ogni trimestre.</p>
-    <span class="bollo">sequico.github.io/scadefor</span>
+    <span class="bollo">scadefor.sequi.company</span>
   </div>
   <div class="piede">
     <span class="mono">2026 · 2027</span><span class="sep"></span>

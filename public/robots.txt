@@ -6,4 +6,4 @@ Allow: /
 # Restano raggiungibili: qui si chiede solo di non sprecarci budget di scansione.
 Disallow: /*.ics$
 
-Sitemap: https://sequico.github.io/scadefor/sitemap.xml
+Sitemap: https://scadefor.sequi.company/sitemap.xml

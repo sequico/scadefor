@@ -7,7 +7,7 @@ regime forfettario, per l'anno corrente e per il successivo. Architettura static
 zero-manutenzione: nessun database, nessun server applicativo, nessuna dipendenza da installare.
 Tutto lo stato vive nei file versionati, e la cronologia dei commit è il registro delle modifiche.
 
-Sito: <https://sequico.github.io/scadefor/>
+Sito: <https://scadefor.sequi.company/>
 
 ---
 
@@ -15,9 +15,9 @@ Sito: <https://sequico.github.io/scadefor/>
 
 Tre calendari, tutti per il regime forfettario:
 
-- **Gestione Separata** — `webcal://sequico.github.io/scadefor/gestione-separata.ics`
-- **Artigiani, riduzione 35%** — `webcal://sequico.github.io/scadefor/artigiani-ridotto-35.ics`
-- **Commercianti, riduzione 35%** — `webcal://sequico.github.io/scadefor/commercianti-ridotto-35.ics`
+- **Gestione Separata** — `webcal://scadefor.sequi.company/gestione-separata.ics`
+- **Artigiani, riduzione 35%** — `webcal://scadefor.sequi.company/artigiani-ridotto-35.ics`
+- **Commercianti, riduzione 35%** — `webcal://scadefor.sequi.company/commercianti-ridotto-35.ics`
 
 Per la Gestione Separata la riduzione contributiva non è applicabile, quindi non compare fra le
 opzioni. Per artigiani e commercianti la riduzione del 35% è già applicata nei calcoli: i calendari

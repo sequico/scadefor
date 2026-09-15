@@ -1,9 +1,9 @@
 {
   "versione_normativa_verificata": "2026-09",
   "metadati": {
-    "dominio": "sequico.github.io/scadefor",
+    "dominio": "scadefor.sequi.company",
     "dominio_calendari": "sequico.github.io",
-    "cname": null,
+    "cname": "scadefor.sequi.company",
     "prod_id": "-//scadefor//Calendario scadenze regime forfettario 1.0//IT",
     "fuso_orario": "Europe/Rome",
     "url_repository": "https://github.com/sequico/scadefor"
