@@ -4,4 +4,11 @@ node_modules/
 .env
 
 # Stato locale dell'agente: non fa parte del progetto e non va pubblicato.
-.codewhale/
+# codewhale runtime state -- the rule mirror is committed, the rest is scratch
+.codewhale/*
+!.codewhale/instructions.md
+
+# Worktrees: a second checkout of this repository lives in `.worktree/` -- the
+# canonical name, here and in every repository (owner decision 2026-09-17).
+# A worktree is a checkout, not content: `git add -A` must never stage one.
+/.worktree/
