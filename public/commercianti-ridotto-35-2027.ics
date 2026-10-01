@@ -15,9 +15,9 @@ X-WR-TIMEZONE:Europe/Rome
 BEGIN:VEVENT
 UID:2027-rate_trimestrali_inps-0216-commercianti-ridotto-35@sequico.github.
  io
-DTSTAMP:20260915T170622Z
-LAST-MODIFIED:20260915T170622Z
-SEQUENCE:0
+DTSTAMP:20261001T064629Z
+LAST-MODIFIED:20261001T064629Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Rata contributi INPS — Commercianti (riduzione 35%)
@@ -27,17 +27,17 @@ DESCRIPTION:CRITERI DI CALCOLO: Aliquota 24\,48% sul minimale INPS 2026 (va
  a (si versa il 65%). Calcolo: 18.808 € × 24\,48% × 65% = 2.992\,73 €
  /anno\, rata trimestrale 748\,18 €.\n\nCRITERI DI SCADENZA: Scadenza ord
  inaria: 16 febbraio 2027. Nessuna proroga rilevata alla data di generazion
- e (15 settembre 2026). Verifica sempre il calendario ufficiale Agenzia del
- le Entrate in prossimità della scadenza. Riferimento normativo applicato 
- per il 2027: D.Lgs. 9 luglio 1997\, n. 241\, art. 18\, comma 2 (mesi delle
-  rate) e comma 1 (giorno del mese). Fonte: https://www.normattiva.it/uri-r
- es/N2Ls?urn:nir:stato:decreto.legislativo:1997-07-09\;241~art18!vig= Fonte
-  per Date delle rate del contributo 2026 e loro attribuzione: INPS\, sched
- a informativa «Aliquote e contributi artigiani» (aggiornata al 12 marzo 
- 2026) — https://www.inps.it/it/it/dettaglio-approfondimento.schede-infor
- mative.49847.aliquote-e-contributi-artigiani.html. Le date dell'anno 2027 
- sono calcolate sulla regola vigente\; potrebbero essere modificate da pror
- oghe non ancora pubblicate.
+ e (1 ottobre 2026). Verifica sempre il calendario ufficiale Agenzia delle 
+ Entrate in prossimità della scadenza. Riferimento normativo applicato per
+  il 2027: D.Lgs. 9 luglio 1997\, n. 241\, art. 18\, comma 2 (mesi delle ra
+ te) e comma 1 (giorno del mese). Fonte: https://www.normattiva.it/uri-res/
+ N2Ls?urn:nir:stato:decreto.legislativo:1997-07-09\;241~art18!vig= Fonte pe
+ r Date delle rate del contributo 2026 e loro attribuzione: INPS\, scheda i
+ nformativa «Aliquote e contributi artigiani» (aggiornata al 12 marzo 202
+ 6) — https://www.inps.it/it/it/dettaglio-approfondimento.schede-informat
+ ive.49847.aliquote-e-contributi-artigiani.html. Le date dell'anno 2027 son
+ o calcolate sulla regola vigente\; potrebbero essere modificate da prorogh
+ e non ancora pubblicate.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -54,9 +54,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2027-opzione_riduzione_35-0228-commercianti-ridotto-35@sequico.github.i
  o
-DTSTAMP:20260915T170622Z
-LAST-MODIFIED:20260915T170622Z
-SEQUENCE:0
+DTSTAMP:20261001T064629Z
+LAST-MODIFIED:20261001T064629Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Opzione riduzione contributiva 35% — Commercianti (riduzione 35%)
@@ -67,13 +67,13 @@ DESCRIPTION:CRITERI DI CALCOLO: Adempimento senza versamento. Effetto dell'
  i versa il 65%). Calcolo: 18.808 € × 24\,48% × 65% = 2.992\,73 €/ann
  o\, rata trimestrale 748\,18 €.\n\nCRITERI DI SCADENZA: Scadenza ordinar
  ia: 1 marzo 2027. Slittata al 1 marzo 2027 perché il 28 febbraio 2027 cad
- e di domenica. Nessuna proroga rilevata alla data di generazione (15 sette
- mbre 2026). Verifica sempre il calendario ufficiale Agenzia delle Entrate 
- in prossimità della scadenza. Riferimento normativo applicato per il 2027
- : Legge 23 dicembre 2014\, n. 190\, art. 1\, comma 77. Fonte: https://www.
- normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2014-12-23\;190!vig= Le dat
- e dell'anno 2027 sono calcolate sulla regola vigente\; potrebbero essere m
- odificate da proroghe non ancora pubblicate.
+ e di domenica. Nessuna proroga rilevata alla data di generazione (1 ottobr
+ e 2026). Verifica sempre il calendario ufficiale Agenzia delle Entrate in 
+ prossimità della scadenza. Riferimento normativo applicato per il 2027: L
+ egge 23 dicembre 2014\, n. 190\, art. 1\, comma 77. Fonte: https://www.nor
+ mattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2014-12-23\;190!vig= Le date d
+ ell'anno 2027 sono calcolate sulla regola vigente\; potrebbero essere modi
+ ficate da proroghe non ancora pubblicate.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -98,9 +98,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2027-rate_trimestrali_inps-0516-commercianti-ridotto-35@sequico.github.
  io
-DTSTAMP:20260915T170622Z
-LAST-MODIFIED:20260915T170622Z
-SEQUENCE:0
+DTSTAMP:20261001T064629Z
+LAST-MODIFIED:20261001T064629Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 SUMMARY:Rata contributi INPS — Commercianti (riduzione 35%)
@@ -110,18 +110,18 @@ DESCRIPTION:CRITERI DI CALCOLO: Aliquota 24\,48% sul minimale INPS 2026 (va
  a (si versa il 65%). Calcolo: 18.808 € × 24\,48% × 65% = 2.992\,73 €
  /anno\, rata trimestrale 748\,18 €.\n\nCRITERI DI SCADENZA: Scadenza ord
  inaria: 17 maggio 2027. Slittata al 17 maggio 2027 perché il 16 maggio 20
- 27 cade di domenica. Nessuna proroga rilevata alla data di generazione (15
-  settembre 2026). Verifica sempre il calendario ufficiale Agenzia delle En
- trate in prossimità della scadenza. Riferimento normativo applicato per i
- l 2027: D.Lgs. 9 luglio 1997\, n. 241\, art. 18\, comma 2 (mesi delle rate
- ) e comma 1 (giorno del mese). Fonte: https://www.normattiva.it/uri-res/N2
- Ls?urn:nir:stato:decreto.legislativo:1997-07-09\;241~art18!vig= Fonte per 
- Date delle rate del contributo 2026 e loro attribuzione: INPS\, scheda inf
- ormativa «Aliquote e contributi artigiani» (aggiornata al 12 marzo 2026)
-  — https://www.inps.it/it/it/dettaglio-approfondimento.schede-informativ
- e.49847.aliquote-e-contributi-artigiani.html. Le date dell'anno 2027 sono 
- calcolate sulla regola vigente\; potrebbero essere modificate da proroghe 
- non ancora pubblicate.
+ 27 cade di domenica. Nessuna proroga rilevata alla data di generazione (1 
+ ottobre 2026). Verifica sempre il calendario ufficiale Agenzia delle Entra
+ te in prossimità della scadenza. Riferimento normativo applicato per il 2
+ 027: D.Lgs. 9 luglio 1997\, n. 241\, art. 18\, comma 2 (mesi delle rate) e
+  comma 1 (giorno del mese). Fonte: https://www.normattiva.it/uri-res/N2Ls?
+ urn:nir:stato:decreto.legislativo:1997-07-09\;241~art18!vig= Fonte per Dat
+ e delle rate del contributo 2026 e loro attribuzione: INPS\, scheda inform
+ ativa «Aliquote e contributi artigiani» (aggiornata al 12 marzo 2026) 
+ — https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative
+ .49847.aliquote-e-contributi-artigiani.html. Le date dell'anno 2027 sono c
+ alcolate sulla regola vigente\; potrebbero essere modificate da proroghe n
+ on ancora pubblicate.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -137,9 +137,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-saldo_primo_acconto-0630-commercianti-ridotto-35@sequico.github.io
-DTSTAMP:20260915T170622Z
-LAST-MODIFIED:20260915T170622Z
-SEQUENCE:0
+DTSTAMP:20261001T064629Z
+LAST-MODIFIED:20261001T064629Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 SUMMARY:Saldo + 1° acconto imposta sostitutiva — Commercianti (riduzione
@@ -156,21 +156,21 @@ DESCRIPTION:CRITERI DI CALCOLO: Contributi previdenziali dovuti alla stessa
  50 €. Valori provvisori: i parametri dell'anno 2027 non sono ancora pubb
  licati\, il calcolo usa quelli dell'anno 2026.\n\nCRITERI DI SCADENZA: Sca
  denza ordinaria: 30 giugno 2027. Nessuna proroga rilevata alla data di gen
- erazione (15 settembre 2026). Verifica sempre il calendario ufficiale Agen
- zia delle Entrate in prossimità della scadenza. Riferimento normativo app
- licato per il 2027: D.P.R. 7 dicembre 2001\, n. 435\, art. 17\, commi 1 e 
- 3. Fonte: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del
- .presidente.della.repubblica:2001-12-07\;435~art17!vig= Fonte per ripartiz
- ione dell'acconto in due rate: Agenzia delle Entrate\, Risoluzione n. 93/E
-  del 12 novembre 2019 — chiarimenti sull'art. 58 del D.L. 124/2019 — h
- ttps://www.agenziaentrate.gov.it/portale/documents/20143/2139920/Risoluzio
- ne+n.+93+del+12+novembre+2019.pdf. Fonte per Rateizzazione e differimento 
- dei versamenti: INPS\, scheda informativa «Aliquote e contributi artigian
- i» (aggiornata al 12 marzo 2026) — https://www.inps.it/it/it/dettaglio-
- approfondimento.schede-informative.49847.aliquote-e-contributi-artigiani.h
- tml. Rateizzabile in un massimo di 6 rate. Le date dell'anno 2027 sono cal
- colate sulla regola vigente\; potrebbero essere modificate da proroghe non
-  ancora pubblicate.
+ erazione (1 ottobre 2026). Verifica sempre il calendario ufficiale Agenzia
+  delle Entrate in prossimità della scadenza. Riferimento normativo applic
+ ato per il 2027: D.P.R. 7 dicembre 2001\, n. 435\, art. 17\, commi 1 e 3. 
+ Fonte: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.pr
+ esidente.della.repubblica:2001-12-07\;435~art17!vig= Fonte per ripartizion
+ e dell'acconto in due rate: Agenzia delle Entrate\, Risoluzione n. 93/E de
+ l 12 novembre 2019 — chiarimenti sull'art. 58 del D.L. 124/2019 — http
+ s://www.agenziaentrate.gov.it/portale/documents/20143/2139920/Risoluzione+
+ n.+93+del+12+novembre+2019.pdf. Fonte per Rateizzazione e differimento dei
+  versamenti: INPS\, scheda informativa «Aliquote e contributi artigiani»
+  (aggiornata al 12 marzo 2026) — https://www.inps.it/it/it/dettaglio-app
+ rofondimento.schede-informative.49847.aliquote-e-contributi-artigiani.html
+ . Rateizzabile in un massimo di 6 rate. Le date dell'anno 2027 sono calcol
+ ate sulla regola vigente\; potrebbero essere modificate da proroghe non an
+ cora pubblicate.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -189,9 +189,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2027-rate_trimestrali_inps-0820-commercianti-ridotto-35@sequico.github.
  io
-DTSTAMP:20260915T170622Z
-LAST-MODIFIED:20260915T170622Z
-SEQUENCE:0
+DTSTAMP:20261001T064629Z
+LAST-MODIFIED:20261001T064629Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270820
 DTEND;VALUE=DATE:20270821
 SUMMARY:Rata contributi INPS — Commercianti (riduzione 35%)
@@ -202,17 +202,17 @@ DESCRIPTION:CRITERI DI CALCOLO: Aliquota 24\,48% sul minimale INPS 2026 (va
  /anno\, rata trimestrale 748\,18 €.\n\nCRITERI DI SCADENZA: Scadenza ord
  inaria: 20 agosto 2027. Scadenza nel periodo 1-20 agosto\, già collocata 
  al 20 agosto per sospensione feriale dei versamenti. Nessuna proroga rilev
- ata alla data di generazione (15 settembre 2026). Verifica sempre il calen
- dario ufficiale Agenzia delle Entrate in prossimità della scadenza. Rifer
- imento normativo applicato per il 2027: D.Lgs. 9 luglio 1997\, n. 241\, ar
- t. 18\, comma 2 (mesi delle rate) e comma 1 (giorno del mese). Fonte: http
- s://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-
- 07-09\;241~art18!vig= Fonte per Date delle rate del contributo 2026 e loro
-  attribuzione: INPS\, scheda informativa «Aliquote e contributi artigiani
- » (aggiornata al 12 marzo 2026) — https://www.inps.it/it/it/dettaglio-a
- pprofondimento.schede-informative.49847.aliquote-e-contributi-artigiani.ht
- ml. Le date dell'anno 2027 sono calcolate sulla regola vigente\; potrebber
- o essere modificate da proroghe non ancora pubblicate.
+ ata alla data di generazione (1 ottobre 2026). Verifica sempre il calendar
+ io ufficiale Agenzia delle Entrate in prossimità della scadenza. Riferime
+ nto normativo applicato per il 2027: D.Lgs. 9 luglio 1997\, n. 241\, art. 
+ 18\, comma 2 (mesi delle rate) e comma 1 (giorno del mese). Fonte: https:/
+ /www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-07-
+ 09\;241~art18!vig= Fonte per Date delle rate del contributo 2026 e loro at
+ tribuzione: INPS\, scheda informativa «Aliquote e contributi artigiani» 
+ (aggiornata al 12 marzo 2026) — https://www.inps.it/it/it/dettaglio-appr
+ ofondimento.schede-informative.49847.aliquote-e-contributi-artigiani.html.
+  Le date dell'anno 2027 sono calcolate sulla regola vigente\; potrebbero e
+ ssere modificate da proroghe non ancora pubblicate.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -229,9 +229,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2027-rate_trimestrali_inps-1116-commercianti-ridotto-35@sequico.github.
  io
-DTSTAMP:20260915T170622Z
-LAST-MODIFIED:20260915T170622Z
-SEQUENCE:0
+DTSTAMP:20261001T064629Z
+LAST-MODIFIED:20261001T064629Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271116
 DTEND;VALUE=DATE:20271117
 SUMMARY:Rata contributi INPS — Commercianti (riduzione 35%)
@@ -241,17 +241,17 @@ DESCRIPTION:CRITERI DI CALCOLO: Aliquota 24\,48% sul minimale INPS 2026 (va
  a (si versa il 65%). Calcolo: 18.808 € × 24\,48% × 65% = 2.992\,73 €
  /anno\, rata trimestrale 748\,18 €.\n\nCRITERI DI SCADENZA: Scadenza ord
  inaria: 16 novembre 2027. Nessuna proroga rilevata alla data di generazion
- e (15 settembre 2026). Verifica sempre il calendario ufficiale Agenzia del
- le Entrate in prossimità della scadenza. Riferimento normativo applicato 
- per il 2027: D.Lgs. 9 luglio 1997\, n. 241\, art. 18\, comma 2 (mesi delle
-  rate) e comma 1 (giorno del mese). Fonte: https://www.normattiva.it/uri-r
- es/N2Ls?urn:nir:stato:decreto.legislativo:1997-07-09\;241~art18!vig= Fonte
-  per Date delle rate del contributo 2026 e loro attribuzione: INPS\, sched
- a informativa «Aliquote e contributi artigiani» (aggiornata al 12 marzo 
- 2026) — https://www.inps.it/it/it/dettaglio-approfondimento.schede-infor
- mative.49847.aliquote-e-contributi-artigiani.html. Le date dell'anno 2027 
- sono calcolate sulla regola vigente\; potrebbero essere modificate da pror
- oghe non ancora pubblicate.
+ e (1 ottobre 2026). Verifica sempre il calendario ufficiale Agenzia delle 
+ Entrate in prossimità della scadenza. Riferimento normativo applicato per
+  il 2027: D.Lgs. 9 luglio 1997\, n. 241\, art. 18\, comma 2 (mesi delle ra
+ te) e comma 1 (giorno del mese). Fonte: https://www.normattiva.it/uri-res/
+ N2Ls?urn:nir:stato:decreto.legislativo:1997-07-09\;241~art18!vig= Fonte pe
+ r Date delle rate del contributo 2026 e loro attribuzione: INPS\, scheda i
+ nformativa «Aliquote e contributi artigiani» (aggiornata al 12 marzo 202
+ 6) — https://www.inps.it/it/it/dettaglio-approfondimento.schede-informat
+ ive.49847.aliquote-e-contributi-artigiani.html. Le date dell'anno 2027 son
+ o calcolate sulla regola vigente\; potrebbero essere modificate da prorogh
+ e non ancora pubblicate.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -267,9 +267,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-secondo_acconto-1130-commercianti-ridotto-35@sequico.github.io
-DTSTAMP:20260915T170622Z
-LAST-MODIFIED:20260915T170622Z
-SEQUENCE:0
+DTSTAMP:20261001T064629Z
+LAST-MODIFIED:20261001T064629Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271130
 DTEND;VALUE=DATE:20271201
 SUMMARY:2° acconto imposta sostitutiva — Commercianti (riduzione 35%)
@@ -284,17 +284,17 @@ DESCRIPTION:CRITERI DI CALCOLO: Contributi previdenziali dovuti alla stessa
  nua. Quota di riferimento 50% dell'imposta: 2.250 €. Valori provvisori: 
  i parametri dell'anno 2027 non sono ancora pubblicati\, il calcolo usa que
  lli dell'anno 2026.\n\nCRITERI DI SCADENZA: Scadenza ordinaria: 30 novembr
- e 2027. Nessuna proroga rilevata alla data di generazione (15 settembre 20
- 26). Verifica sempre il calendario ufficiale Agenzia delle Entrate in pros
- simità della scadenza. Riferimento normativo applicato per il 2027: D.P.R
- . 7 dicembre 2001\, n. 435\, art. 17\, comma 3\, lett. b). Fonte: https://
- www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.
- repubblica:2001-12-07\;435~art17!vig= Fonte per ripartizione dell'acconto 
- in due rate: Agenzia delle Entrate\, Risoluzione n. 93/E del 12 novembre 2
- 019 — chiarimenti sull'art. 58 del D.L. 124/2019 — https://www.agenzia
- entrate.gov.it/portale/documents/20143/2139920/Risoluzione+n.+93+del+12+no
- vembre+2019.pdf. Le date dell'anno 2027 sono calcolate sulla regola vigent
- e\; potrebbero essere modificate da proroghe non ancora pubblicate.
+ e 2027. Nessuna proroga rilevata alla data di generazione (1 ottobre 2026)
+ . Verifica sempre il calendario ufficiale Agenzia delle Entrate in prossim
+ ità della scadenza. Riferimento normativo applicato per il 2027: D.P.R. 7
+  dicembre 2001\, n. 435\, art. 17\, comma 3\, lett. b). Fonte: https://www
+ .normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.rep
+ ubblica:2001-12-07\;435~art17!vig= Fonte per ripartizione dell'acconto in 
+ due rate: Agenzia delle Entrate\, Risoluzione n. 93/E del 12 novembre 2019
+  — chiarimenti sull'art. 58 del D.L. 124/2019 — https://www.agenziaent
+ rate.gov.it/portale/documents/20143/2139920/Risoluzione+n.+93+del+12+novem
+ bre+2019.pdf. Le date dell'anno 2027 sono calcolate sulla regola vigente\;
+  potrebbero essere modificate da proroghe non ancora pubblicate.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM

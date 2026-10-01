@@ -13,9 +13,9 @@ X-WR-CALDESC:Professionisti e lavoratori autonomi senza altra copertura pre
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VEVENT
 UID:2026-saldo_primo_acconto-0630-gestione-separata@sequico.github.io
-DTSTAMP:20260915T170622Z
-LAST-MODIFIED:20260915T170622Z
-SEQUENCE:0
+DTSTAMP:20261001T064629Z
+LAST-MODIFIED:20261001T064629Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Saldo + 1° acconto imposta sostitutiva — Gestione Separata
@@ -29,19 +29,19 @@ DESCRIPTION:CRITERI DI CALCOLO: Contributi previdenziali dovuti alla stessa
  rativo\, non un dato normativo): 30.000 € × 15% = 4.500 € di imposta 
  annua. Quota di riferimento 50% dell'imposta: 2.250 €.\n\nCRITERI DI SCA
  DENZA: Scadenza ordinaria: 30 giugno 2026. Nessuna proroga rilevata alla d
- ata di generazione (15 settembre 2026). Verifica sempre il calendario uffi
- ciale Agenzia delle Entrate in prossimità della scadenza. Riferimento nor
- mativo applicato per il 2026: D.P.R. 7 dicembre 2001\, n. 435\, art. 17\, 
- commi 1 e 3. Fonte: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:d
- ecreto.del.presidente.della.repubblica:2001-12-07\;435~art17!vig= Fonte pe
- r ripartizione dell'acconto in due rate: Agenzia delle Entrate\, Risoluzio
- ne n. 93/E del 12 novembre 2019 — chiarimenti sull'art. 58 del D.L. 124/
- 2019 — https://www.agenziaentrate.gov.it/portale/documents/20143/2139920
- /Risoluzione+n.+93+del+12+novembre+2019.pdf. Fonte per Rateizzazione e dif
- ferimento dei versamenti: INPS\, scheda informativa «Aliquote e contribut
- i artigiani» (aggiornata al 12 marzo 2026) — https://www.inps.it/it/it/
- dettaglio-approfondimento.schede-informative.49847.aliquote-e-contributi-a
- rtigiani.html. Rateizzabile in un massimo di 6 rate.
+ ata di generazione (1 ottobre 2026). Verifica sempre il calendario ufficia
+ le Agenzia delle Entrate in prossimità della scadenza. Riferimento normat
+ ivo applicato per il 2026: D.P.R. 7 dicembre 2001\, n. 435\, art. 17\, com
+ mi 1 e 3. Fonte: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decr
+ eto.del.presidente.della.repubblica:2001-12-07\;435~art17!vig= Fonte per r
+ ipartizione dell'acconto in due rate: Agenzia delle Entrate\, Risoluzione 
+ n. 93/E del 12 novembre 2019 — chiarimenti sull'art. 58 del D.L. 124/201
+ 9 — https://www.agenziaentrate.gov.it/portale/documents/20143/2139920/Ri
+ soluzione+n.+93+del+12+novembre+2019.pdf. Fonte per Rateizzazione e differ
+ imento dei versamenti: INPS\, scheda informativa «Aliquote e contributi a
+ rtigiani» (aggiornata al 12 marzo 2026) — https://www.inps.it/it/it/det
+ taglio-approfondimento.schede-informative.49847.aliquote-e-contributi-arti
+ giani.html. Rateizzabile in un massimo di 6 rate.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -57,9 +57,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-secondo_acconto-1130-gestione-separata@sequico.github.io
-DTSTAMP:20260915T170622Z
-LAST-MODIFIED:20260915T170622Z
-SEQUENCE:0
+DTSTAMP:20261001T064629Z
+LAST-MODIFIED:20261001T064629Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:2° acconto imposta sostitutiva — Gestione Separata
@@ -72,16 +72,16 @@ DESCRIPTION:CRITERI DI CALCOLO: Contributi previdenziali dovuti alla stessa
  reddito imponibile di 30.000 € (valore illustrativo\, non un dato normat
  ivo): 30.000 € × 15% = 4.500 € di imposta annua. Quota di riferimento
   50% dell'imposta: 2.250 €.\n\nCRITERI DI SCADENZA: Scadenza ordinaria: 
- 30 novembre 2026. Nessuna proroga rilevata alla data di generazione (15 se
- ttembre 2026). Verifica sempre il calendario ufficiale Agenzia delle Entra
- te in prossimità della scadenza. Riferimento normativo applicato per il 2
- 026: D.P.R. 7 dicembre 2001\, n. 435\, art. 17\, comma 3\, lett. b). Fonte
- : https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.preside
- nte.della.repubblica:2001-12-07\;435~art17!vig= Fonte per ripartizione del
- l'acconto in due rate: Agenzia delle Entrate\, Risoluzione n. 93/E del 12 
- novembre 2019 — chiarimenti sull'art. 58 del D.L. 124/2019 — https://w
- ww.agenziaentrate.gov.it/portale/documents/20143/2139920/Risoluzione+n.+93
- +del+12+novembre+2019.pdf.
+ 30 novembre 2026. Nessuna proroga rilevata alla data di generazione (1 ott
+ obre 2026). Verifica sempre il calendario ufficiale Agenzia delle Entrate 
+ in prossimità della scadenza. Riferimento normativo applicato per il 2026
+ : D.P.R. 7 dicembre 2001\, n. 435\, art. 17\, comma 3\, lett. b). Fonte: h
+ ttps://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente
+ .della.repubblica:2001-12-07\;435~art17!vig= Fonte per ripartizione dell'a
+ cconto in due rate: Agenzia delle Entrate\, Risoluzione n. 93/E del 12 nov
+ embre 2019 — chiarimenti sull'art. 58 del D.L. 124/2019 — https://www.
+ agenziaentrate.gov.it/portale/documents/20143/2139920/Risoluzione+n.+93+de
+ l+12+novembre+2019.pdf.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -97,9 +97,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-saldo_primo_acconto-0630-gestione-separata@sequico.github.io
-DTSTAMP:20260915T170622Z
-LAST-MODIFIED:20260915T170622Z
-SEQUENCE:0
+DTSTAMP:20261001T064629Z
+LAST-MODIFIED:20261001T064629Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 SUMMARY:Saldo + 1° acconto imposta sostitutiva — Gestione Separata
@@ -114,21 +114,21 @@ DESCRIPTION:CRITERI DI CALCOLO: Contributi previdenziali dovuti alla stessa
  annua. Quota di riferimento 50% dell'imposta: 2.250 €. Valori provvisori
  : i parametri dell'anno 2027 non sono ancora pubblicati\, il calcolo usa q
  uelli dell'anno 2026.\n\nCRITERI DI SCADENZA: Scadenza ordinaria: 30 giugn
- o 2027. Nessuna proroga rilevata alla data di generazione (15 settembre 20
- 26). Verifica sempre il calendario ufficiale Agenzia delle Entrate in pros
- simità della scadenza. Riferimento normativo applicato per il 2027: D.P.R
- . 7 dicembre 2001\, n. 435\, art. 17\, commi 1 e 3. Fonte: https://www.nor
- mattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubbl
- ica:2001-12-07\;435~art17!vig= Fonte per ripartizione dell'acconto in due 
- rate: Agenzia delle Entrate\, Risoluzione n. 93/E del 12 novembre 2019 —
-  chiarimenti sull'art. 58 del D.L. 124/2019 — https://www.agenziaentrate
- .gov.it/portale/documents/20143/2139920/Risoluzione+n.+93+del+12+novembre+
- 2019.pdf. Fonte per Rateizzazione e differimento dei versamenti: INPS\, sc
- heda informativa «Aliquote e contributi artigiani» (aggiornata al 12 mar
- zo 2026) — https://www.inps.it/it/it/dettaglio-approfondimento.schede-in
- formative.49847.aliquote-e-contributi-artigiani.html. Rateizzabile in un m
- assimo di 6 rate. Le date dell'anno 2027 sono calcolate sulla regola vigen
- te\; potrebbero essere modificate da proroghe non ancora pubblicate.
+ o 2027. Nessuna proroga rilevata alla data di generazione (1 ottobre 2026)
+ . Verifica sempre il calendario ufficiale Agenzia delle Entrate in prossim
+ ità della scadenza. Riferimento normativo applicato per il 2027: D.P.R. 7
+  dicembre 2001\, n. 435\, art. 17\, commi 1 e 3. Fonte: https://www.normat
+ tiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica
+ :2001-12-07\;435~art17!vig= Fonte per ripartizione dell'acconto in due rat
+ e: Agenzia delle Entrate\, Risoluzione n. 93/E del 12 novembre 2019 — ch
+ iarimenti sull'art. 58 del D.L. 124/2019 — https://www.agenziaentrate.go
+ v.it/portale/documents/20143/2139920/Risoluzione+n.+93+del+12+novembre+201
+ 9.pdf. Fonte per Rateizzazione e differimento dei versamenti: INPS\, sched
+ a informativa «Aliquote e contributi artigiani» (aggiornata al 12 marzo 
+ 2026) — https://www.inps.it/it/it/dettaglio-approfondimento.schede-infor
+ mative.49847.aliquote-e-contributi-artigiani.html. Rateizzabile in un mass
+ imo di 6 rate. Le date dell'anno 2027 sono calcolate sulla regola vigente\
+ ; potrebbero essere modificate da proroghe non ancora pubblicate.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -144,9 +144,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-secondo_acconto-1130-gestione-separata@sequico.github.io
-DTSTAMP:20260915T170622Z
-LAST-MODIFIED:20260915T170622Z
-SEQUENCE:0
+DTSTAMP:20261001T064629Z
+LAST-MODIFIED:20261001T064629Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271130
 DTEND;VALUE=DATE:20271201
 SUMMARY:2° acconto imposta sostitutiva — Gestione Separata
@@ -161,17 +161,17 @@ DESCRIPTION:CRITERI DI CALCOLO: Contributi previdenziali dovuti alla stessa
   50% dell'imposta: 2.250 €. Valori provvisori: i parametri dell'anno 202
  7 non sono ancora pubblicati\, il calcolo usa quelli dell'anno 2026.\n\nCR
  ITERI DI SCADENZA: Scadenza ordinaria: 30 novembre 2027. Nessuna proroga r
- ilevata alla data di generazione (15 settembre 2026). Verifica sempre il c
- alendario ufficiale Agenzia delle Entrate in prossimità della scadenza. R
- iferimento normativo applicato per il 2027: D.P.R. 7 dicembre 2001\, n. 43
- 5\, art. 17\, comma 3\, lett. b). Fonte: https://www.normattiva.it/uri-res
- /N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-12-07\;43
- 5~art17!vig= Fonte per ripartizione dell'acconto in due rate: Agenzia dell
- e Entrate\, Risoluzione n. 93/E del 12 novembre 2019 — chiarimenti sull'
- art. 58 del D.L. 124/2019 — https://www.agenziaentrate.gov.it/portale/do
- cuments/20143/2139920/Risoluzione+n.+93+del+12+novembre+2019.pdf. Le date 
- dell'anno 2027 sono calcolate sulla regola vigente\; potrebbero essere mod
- ificate da proroghe non ancora pubblicate.
+ ilevata alla data di generazione (1 ottobre 2026). Verifica sempre il cale
+ ndario ufficiale Agenzia delle Entrate in prossimità della scadenza. Rife
+ rimento normativo applicato per il 2027: D.P.R. 7 dicembre 2001\, n. 435\,
+  art. 17\, comma 3\, lett. b). Fonte: https://www.normattiva.it/uri-res/N2
+ Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-12-07\;435~a
+ rt17!vig= Fonte per ripartizione dell'acconto in due rate: Agenzia delle E
+ ntrate\, Risoluzione n. 93/E del 12 novembre 2019 — chiarimenti sull'art
+ . 58 del D.L. 124/2019 — https://www.agenziaentrate.gov.it/portale/docum
+ ents/20143/2139920/Risoluzione+n.+93+del+12+novembre+2019.pdf. Le date del
+ l'anno 2027 sono calcolate sulla regola vigente\; potrebbero essere modifi
+ cate da proroghe non ancora pubblicate.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
